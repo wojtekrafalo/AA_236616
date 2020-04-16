@@ -8,9 +8,6 @@ max_n = 10_000
 def_k = 400
 
 
-# max_n = 10_000
-
-
 def ex5_a():
     diff_avg = 0
 
