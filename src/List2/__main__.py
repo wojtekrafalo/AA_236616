@@ -125,27 +125,25 @@ def ex7():
     alphas = [0.05, 0.01, 0.005]
     for alpha in alphas:
         delta = results[math.ceil((1 - alpha) * (len(results) - 1))] + 0.00000000001
-        file_ex7_estimate.write("\n\nAlpha: " + str(alpha) + ",\n     delta=" + str(delta) + "\n     1-delta=" + str(
-            1 - delta) + "\n     1+delta=" + str(1 + delta))
+        file_ex7_estimate.write("\n\nAlpha: " + str(alpha) + ",\n    delta=" + str(delta) + "\n    1-delta=" + str(
+            1 - delta) + "\n    1+delta=" + str(1 + delta) + "\n")
         no_success = 0
         for r in results:
             if r < delta:
                 no_success += 1
-        file_ex7_estimate.write(str(no_success / len(results)))
-        # if 1 - alpha >= no_success / len(results):
-        #     break
+        file_ex7_estimate.write("    Prawdopodobienstwo= " + str(no_success / len(results)))
 
 
 def main():
-    # print("Uruchomienie rozwiązania zajmie około godziny.\nZad 1.a) trwa praca...")
-    # ex5_a()
-    # print("Zad 5 b) Trwa praca...")
-    # ex5_b()
-    # print("Zad 5 c) Trwa praca...")
-    # found_k = ex5_c()
-    # print("Zad 5 c) zakończono. Znalezione k:" + str(found_k))
-    # print("Zad 6. Trwa praca...")
-    # ex_6()
+    print("Uruchomienie rozwiązania zajmie około godziny.\nZad 1.a) trwa praca...")
+    ex5_a()
+    print("Zad 5 b) Trwa praca...")
+    ex5_b()
+    print("Zad 5 c) Trwa praca...")
+    found_k = ex5_c()
+    print("Zad 5 c) zakończono. Znalezione k:" + str(found_k))
+    print("Zad 6. Trwa praca...")
+    ex_6()
     print("Zad 7. Trwa praca...")
     ex7()
 
