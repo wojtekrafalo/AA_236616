@@ -1,0 +1,86 @@
+Raport zostal wygenerowany poprzez projekt dolaczony do rozwiazania. Plik zawiera rozwiazanie zadania 9_c.    
+Wykorzystano wyniki otrzymane w zadaniu 9 (mianowicie te zapisane w pliku 'ex9_data_200.csv'), aby porownac je z ograniczeniami wynikajacymi z nierownosci Czebyszewa.    
+Uruchomiono wyszukiwanie binarne maksymalnych wartosci delta (zgodnie z pewna dokladnoscia rowna 1e-15) dla trzech wartosci alpha: 5%, 1% oraz 0.5%, aby osiagnac nierownosc:    
+          P[1-delta < _sum / sum < 1+delta]  >  1-alpha.    
+ Powyzsze ograniczenia zostaly przedstawione razem z wartosciami (_sum/sum) jednym wykresie w pliku 'ex9_c_data_{m}.xlsx', gdzie w miejsce {m} wstawiono odpwiednie wartosci m.    
+ Dla odpowiednich wartosci m oraz wartosci alpha osiagnieto ponizsze wyniki:
+
+
+
+
+
+2:
+         
+      delta: 1.7070452254044595   7.215088438539191   10.0        
+  1 - delta: -0.7070452254044595   -6.215088438539191   -9.0        
+  1 + delta: 2.7070452254044595   8.21508843853919   11.0
+
+
+
+
+
+3:
+         
+      delta: 1.6595585237576653   4.63879253604179   6.243205784818474        
+  1 - delta: -0.6595585237576653   -3.63879253604179   -5.243205784818474        
+  1 + delta: 2.6595585237576653   5.63879253604179   7.243205784818474
+
+
+
+
+
+5:
+         
+      delta: 1.0814084282018603   2.1076401480568734   3.202650463169288        
+  1 - delta: -0.08140842820186034   -1.1076401480568734   -2.202650463169288        
+  1 + delta: 2.0814084282018603   3.1076401480568734   4.202650463169288
+
+
+
+
+
+10:
+         
+      delta: 0.6575081840688807   1.2583423691288935   1.4699427528155233        
+  1 - delta: 0.3424918159311193   -0.2583423691288935   -0.46994275281552333        
+  1 + delta: 1.6575081840688806   2.2583423691288935   2.4699427528155233
+
+
+
+
+
+100:
+         
+      delta: 0.24038330962058818   0.26165711644403455   0.3020195949191834        
+  1 - delta: 0.7596166903794118   0.7383428835559654   0.6979804050808166        
+  1 + delta: 1.2403833096205883   1.2616571164440344   1.3020195949191833
+
+
+
+
+
+200:
+         
+      delta: 0.18372161134721232   0.18372161134721232   0.19947866656205127        
+  1 - delta: 0.8162783886527877   0.8162783886527877   0.8005213334379487        
+  1 + delta: 1.1837216113472122   1.1837216113472122   1.1994786665620514
+
+
+
+
+
+300:
+         
+      delta: 0.18223305084680674   0.18223305084680674   0.18223305084680674        
+  1 - delta: 0.8177669491531933   0.8177669491531933   0.8177669491531933        
+  1 + delta: 1.1822330508468069   1.1822330508468069   1.1822330508468069
+
+
+
+
+
+500:
+         
+      delta: 0.13838026448671992   0.13838026448671992   0.13838026448671992        
+  1 - delta: 0.8616197355132801   0.8616197355132801   0.8616197355132801        
+  1 + delta: 1.1383802644867198   1.1383802644867198   1.1383802644867198

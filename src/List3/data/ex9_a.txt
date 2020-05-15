@@ -1,0 +1,7 @@
+Raport zostal wygenerowany poprzez projekt dolaczony do rozwiazania. Plik zawiera rozwiazanie zadania 9_a.    
+Zastosowano 6 funkcji hashujacych ze zbioru: {default_hash, sha224_hash, sha3_256_hash, sha_256_hash, md5_hash, simple_hash}    
+Opisy kolejnych funkcji znajduja sie w sprawozdaniu dolaczonym do rozwiazania.    
+Uruchomiono unique_sum z uzyciem kazdej z nich dla kolejnych n z przedzialu [1, 11, 21, 31, ...1000] dla m=200,    
+dla multizbiorow bez powtorzen. Dla danego n zastosowano ten sam multizbiorj jednak dla dwoch roznych n multizbiory sa rozlaczne.    
+Dla kazdego uruchomienia algorytmu wyznaczono stosunek (estymacja sumy)/(suma rzeczywista). Nastepnie wyznaczono jego wartosc srednia dla kazdej funkcji hashujacej.    
+Wyniki wynosza odpowiednio:[2.344190837333267, 0.0008162482124907735, 0.9959978658734108, 1.0003331530237787, 1.0192691978096542, 0.10183687226905473]

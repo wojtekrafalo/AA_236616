@@ -1,0 +1,9 @@
+Raport zostal wygenerowany poprzez projekt dolaczony do rozwiazania. Plik zawiera rozwiazanie zadania 11.        
+Zostaly tu wyliczone prawdopodobienstwa sukcesu adwersarza P(n, q) wedlug formul Nakamoto i Gunspana oraz w sposob eksperymentalny poprzez wykonanie symulacji.        
+  -W przypadku, gdy n (ilosc wydobytych blokow w celu potwierdzenia transakcji) jest z gory ustalone        
+   (przyjmuje wartosci: {1, 3, 6, 12, 24, 48}), moc adwersarza q zmienia sie o 1/500.        
+    Wyniki zostaly zapisane w plikach odpowiednio: 'exA_nakamoto_q.csv' oraz 'exA_grunspan_q.csv'.        
+  -W przypadku, gdy q jest z gory ustalone (przyjmuje wartosci: {0.001, 0.01, 0.1}), n zmienia sie o 1/100.        
+    Wyniki zostaly zapisane w plikach odpowiednio: 'exA_nakamoto_n.csv' oraz 'exA_grunspan_n.csv'.        
+
+Dla kazdego z plikow '.csv' (lacznie szesciu) w plikach o tej samej nazwie, lecz z rozszerzeniem '.xlsx' zaimportowano zestawy danych oraz wygenerowano wykresy.

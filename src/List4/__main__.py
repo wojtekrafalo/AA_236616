@@ -82,7 +82,7 @@ if __name__ == '__main__':
     print("Zad 11 b) Trwa praca...")
     ex11_b(scale_q, scale_n)
 
-    file_ex11 = open("ex11.txt", "w")
+    file_ex11 = open("data/ex11.txt", "w")
     file_ex11.write("Raport zostal wygenerowany poprzez projekt dolaczony do rozwiazania. Plik zawiera rozwiazanie zadania 11.\
         \nZostaly tu wyliczone prawdopodobienstwa sukcesu adwersarza P(n, q) wedlug formul Nakamoto i Gunspana oraz w sposob eksperymentalny poprzez wykonanie symulacji.\
         \n  -W przypadku, gdy n (ilosc wydobytych blokow w celu potwierdzenia transakcji) jest z gory ustalone\

@@ -27,7 +27,7 @@ def ex9():
         file_ex9_data_m.close()
         print(file_name + ": zakonczono zapis.")
 
-    file_ex9 = open("ex9.txt", "w")
+    file_ex9 = open("data/ex9.txt", "w")
     file_ex9.write("Raport zostal wygenerowany poprzez projekt dolaczony do rozwiazania. Plik zawiera rozwiazanie zadania 9.\
     \nZostaly tu wykonane eksperymenty analogiczne do tych z listy zadan dotyczacej minCount.\
     \nUruchomiono unique_sum dla kazdego n z przedzialu [1, " + str(max_n) + "] dla roznych m ze zbioru: " + str(
@@ -61,7 +61,7 @@ def ex9_a():
         diff_ratio /= inc
         fun_err.append(diff_ratio)
 
-    file_ex9_a = open("ex9_a.txt", "w")
+    file_ex9_a = open("data/ex9_a.txt", "w")
     file_ex9_a.write("Raport zostal wygenerowany poprzez projekt dolaczony do rozwiazania. Plik zawiera rozwiazanie zadania 9_a.\
     \nZastosowano 6 funkcji hashujacych ze zbioru: {default_hash, sha224_hash, sha3_256_hash, sha_256_hash, md5_hash, simple_hash}\
     \nOpisy kolejnych funkcji znajduja sie w sprawozdaniu dolaczonym do rozwiazania.\
@@ -94,7 +94,7 @@ def ex9_b():
             diff_ratio /= inc
             sc_err.append(diff_ratio)
 
-    file_ex9_b = open("ex9_b.txt", "w")
+    file_ex9_b = open("data/ex9_b.txt", "w")
     file_ex9_b.write("Raport zostal wygenerowany poprzez projekt dolaczony do rozwiazania. Plik zawiera rozwiazanie zadania 9_b.\
     \nAlgorytm unique_sum uruchomiono dla roznych scenariuszy:\
     \n- w przypadku, gdy wartosci lambda elementow multizbioru sa sobie rowne (EQUAL),\
@@ -163,7 +163,7 @@ def ex9_c():
         deltas_sub.append(float(1 - d))
         deltas_add.append(float(1 + d))
 
-    file_ex9_c = open("ex9_c.txt", "w")
+    file_ex9_c = open("data/ex9_c.txt", "w")
     file_ex9_c.write("Raport zostal wygenerowany poprzez projekt dolaczony do rozwiazania. Plik zawiera rozwiazanie zadania 9_c.\
     \nWykorzystano wyniki otrzymane w zadaniu 9 (mianowicie te zapisane w pliku 'ex9_data_200.csv'), aby porownac je z ograniczeniami wynikajacymi z nierownosci Czebyszewa.\
     \nUruchomiono wyszukiwanie binarne maksymalnych wartosci delta (zgodnie z pewna dokladnoscia rowna " + str(dokl) + ") dla trzech wartosci alpha: 5%, 1% oraz 0.5%, aby osiagnac nierownosc:\
@@ -207,7 +207,7 @@ def ex10():
     def_b = max_n
     inc = 0
 
-    file_ex10_data = open("ex10_data.csv", "w")
+    file_ex10_data = open("data/ex10_data.csv", "w")
     file_ex10_data.write("n,ratio" + "\n")
 
     for i in range(1, max_n + 1, step):
@@ -224,7 +224,7 @@ def ex10():
     file_ex10_data.close()
     print("ex10_data.csv: Zakonczono zapis.")
 
-    file_ex10 = open("ex10.txt", "w")
+    file_ex10 = open("data/ex10.txt", "w")
     file_ex10.write("Raport zostal wygenerowany poprzez projekt dolaczony do rozwiazania. Plik zawiera rozwiazanie zadania 10.\
         \nAlgorytm unique_sum uruchomiono dla kolejnych n z przedzialu [1, 11, 21, 31, ..." + str(
         max_n) + "] dla m=" + str(def_m) + ",\

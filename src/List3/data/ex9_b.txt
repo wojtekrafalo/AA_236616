@@ -1,0 +1,12 @@
+Raport zostal wygenerowany poprzez projekt dolaczony do rozwiazania. Plik zawiera rozwiazanie zadania 9_b.    
+Algorytm unique_sum uruchomiono dla roznych scenariuszy:    
+- w przypadku, gdy wartosci lambda elementow multizbioru sa sobie rowne (EQUAL),    
+- sa losowo wybrane z rozkladu jednostajnego z przedzialu: [1, 1000 ] (LINEAR)     
+- oraz kiedy wiekszosc elementow jest z przedzialu: [950, 1050 ], ale okolo 5% z wartosci sa odstajace (SIMILAR).    
+Kazdy z tych scenariuszy zostal uruchomiony dla multizbiorow z powtorzeniami oraz bez powtorzen. Lacznie wzieto pod uwage szesc scenariuszy.    
+Dla kazdego z nich uruchomiono unique_sum dla kolejnych n z przedzialu [1, 11, 21, 31, ...1000] dla m=200,    
+Dla kazdego uruchomienia algorytmu zmierzono stosunek (_sum/sum). Dla kazdego scenariusza wyliczono srednia arytmetyczna tych wartosci.    
+Wyniki przedstawia ponizsza tabela:    
+                  EQUAL           LINEAR          SIMILAR    
+Powtorzenia:      0.9997802589887606 1.0053723294127632 0.9945605490353693    
+Bez powtorzen:    0.9997802589887607 0.9950246803055401 1.0062132766159781

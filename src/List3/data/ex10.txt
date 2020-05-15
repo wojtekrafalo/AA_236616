@@ -1,0 +1,9 @@
+Raport zostal wygenerowany poprzez projekt dolaczony do rozwiazania. Plik zawiera rozwiazanie zadania 10.        
+Algorytm unique_sum uruchomiono dla kolejnych n z przedzialu [1, 11, 21, 31, ...1000] dla m=200,        
+Dla kazdego uruchomienia _avg/avg). Na koniec wyznaczono srednia arytmetyczna tych wartosci.        
+Wykorzystano sposob polegajacy na jednym przebiegu algorytmu unique_sum,        
+jednak rownoczesnie z estymowaniem sumy watosci lambda unikalnych elementow multizbioru, estymowano rowniez osobna sume,        
+zakladajac, ze dla kazdego elementu wartosc lambda wynosi 1. W ten sposob z podobna dokladnoscia wyznaczono licznosc zbioru.        
+
+Wyniki eksperymentu (stosunek dla kolejnych uruchomien algorytmu) znajduja sie w pliku ex10_data.csv.        
+Srednia wartosc wyliczonego stosunku sredniej do jej rzeczywistych wartosci wyniosla: 1.0137884546941973.

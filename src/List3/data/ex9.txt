@@ -1,0 +1,8 @@
+Raport zostal wygenerowany poprzez projekt dolaczony do rozwiazania. Plik zawiera rozwiazanie zadania 9.    
+Zostaly tu wykonane eksperymenty analogiczne do tych z listy zadan dotyczacej minCount.    
+Uruchomiono unique_sum dla kazdego n z przedzialu [1, 1000] dla roznych m ze zbioru: [2, 3, 5, 10, 100, 200, 300, 500]    
+Dla kazdych dwoch roznych n multizbiory sa rozlaczne.    
+Dla kazdego m wyniki przedstawiono na osobnym wykresie.    
+Na osi poziomej znajduje sie n, zas na osi pionowej stosunek (estymacja sumy)/(suma rzeczywista).    
+Wyniki uruchomienia algorytmu znajduja sie w plikach o nazwie 'ex9_data_{m}.csv', gdzie w miejsce {m} umieszczono wartosc m.    
+Zas wykresy znajduja sie w plikach o tych samych nazwach, lecz z rozszerzeniem '.xlsx'.
