@@ -98,7 +98,7 @@ def ex_6():
     file_ex6.write("Raport zostal wygenerowany poprzez projekt dolaczony do rozwiazania. Plik zawiera rozwiazanie zadania 6.\
         \nUruchomiono min_count dla k=" + str(def_k) + ", dla kolejnych n: {1, 101, 201, 301, 401, 501, 601} dla multizbiorow bez powtorzen.\
         \nZastosowano " + str(no_func) + " roznych funkcji hashujacych: {default_hash, sha224_hash, sha3_256_hash, sha_256_hash, md5_hash, simple_hash}.\
-        \nIch implementacje znajdują się w pliku algorithms.py. Opisy funkcji znajduja sie w sprawozdaniu. \
+        \nIch implementacje znajdują się w pliku mutual_exclusion_alg.py. Opisy funkcji znajduja sie w sprawozdaniu. \
         \nBlad wzgledny wyliczony przez min_count z wtykorzystaniem powyzszych funkcji wyniosl odpowiednio:\
         \n" + str(func_err))
     file_ex6.close()
