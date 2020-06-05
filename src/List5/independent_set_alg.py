@@ -38,16 +38,15 @@ def find_maximal_independent(graph):
 
 
 def independent_thread_function(node):
+    for i in range(0, infinity):
+        if not node.is_independent:
+            to_independent = True
+            for neigh in node.neighs:
+                if neigh.is_independent:
+                    to_independent = False
+            node.is_independent = to_independent
 
-    if not node.is_independent:
-        to_independent = True
-        for neigh in node.neighs:
-            if neigh.is_independent:
-                to_independent = False
-        node.is_independent = to_independent
-
-    if node.is_independent:
-        for neigh in node.neighs:
-            if neigh.is_independent:
-                node.is_independent = False
-
+        if node.is_independent:
+            for neigh in node.neighs:
+                if neigh.is_independent:
+                    node.is_independent = False
