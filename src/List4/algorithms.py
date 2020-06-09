@@ -47,3 +47,4 @@ def experimental_prob(n, q):
     for i in range(all_tries):
         no_wins += simulate(n, q)
     return no_wins / all_tries
+
