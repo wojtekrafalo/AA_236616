@@ -22,21 +22,21 @@ def grunspan_prob(n, q):
 
 def simulate(n, q):
     time_limit = 1000
-    p = 1 - q
     adversary_blocks = 0
     users_blocks = 0
-    while adversary_blocks < n and users_blocks < n:
+    while users_blocks < n:
         if random() < q:
             adversary_blocks += 1
-        if random() < p:
+        else:
             users_blocks += 1
 
-    for i in range(time_limit):
+    for _ in range(time_limit):
         if adversary_blocks >= users_blocks:
             return 1
+
         if random() < q:
             adversary_blocks += 1
-        if random() < p:
+        else:
             users_blocks += 1
     return 0
 

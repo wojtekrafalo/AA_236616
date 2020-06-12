@@ -18,7 +18,7 @@ def generate_points_by_q_power(scale_q, prob_func, file_name):
         list_prob = list()
         for q in list_q:
             list_prob.append(prob_func(ns[i], q))
-            q -= step_q
+            # q -= step_q
         result[i + 1] = list_prob
     save_result_to_csv(result, file_name, ns, scale_q)
 
@@ -73,11 +73,11 @@ def ex11_b(scale_q, scale_n):
 
 
 if __name__ == '__main__':
-    scale_q = 500
+    scale_q = 200
     scale_n = 100
     print("Uruchomienie rozwiązania zajmie kilka minut.")
     print("Zad 11 a) Trwa praca...")
-    # ex11_a(scale_q, scale_n)
+    ex11_a(scale_q, scale_n)
 
     print("Zad 11 b) Trwa praca...")
     ex11_b(scale_q, scale_n)
